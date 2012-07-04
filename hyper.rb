@@ -24,7 +24,7 @@ class Hyper < Formula
       a dependency but instead needs to be build by you using for instance:
 
       brew tap Homebrew/dupes
-      brew install gcc --with-llvm --enable-cxx
+      brew install gcc --use-llvm --enable-cxx
     EOS
   end
 end
