@@ -16,4 +16,4 @@ Tap into the hyper repository and install hyper. Check for caveats, you might ne
     brew tap henrik-muehe/hyper
     brew install hyper
     
-For I7 processors, HyPer currently needs to be compiled with `-mno-avx` added to the `CXXFLAGS`.
+For I7 processors, HyPer currently needs to be compiled with `-mno-avx` added to the `CXXFLAGS`. Also, remember to set CXX to g++-4.7, for instance using `export CXX=g++-4.7`.
