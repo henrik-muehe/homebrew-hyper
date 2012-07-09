@@ -7,7 +7,6 @@ class Hyper < Formula
 
   depends_on "llvm"
   depends_on "ld64"
-  depends_on "clang-as-wrapper"
 
   def install
     bin.install "hyper"
